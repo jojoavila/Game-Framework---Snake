@@ -1,6 +1,7 @@
 import pygame  # Import the Pygame library for game development.
 import time
 import random
+import pygame.mixer # module to play a sound
 
 pygame.init()  # Initialize the Pygame library.
 
@@ -65,6 +66,10 @@ def gameLoop():
     # Generate initial coordinates for the food that the snake will eat.
     foodx = round(random.randrange(0, dis_width - snake_block) / 10.0) * 10.0
     foody = round(random.randrange(0, dis_height - snake_block) / 10.0) * 10.0
+
+    #Initialize the mixer and load a sound file 
+    pygame.mixer.init() 
+    eat_sound = pygame.mixer.Sound("eat.wav")
 
     while not game_over:
 
@@ -134,6 +139,7 @@ def gameLoop():
             foodx = round(random.randrange(0, dis_width - snake_block) / 10.0) * 10.0
             foody = round(random.randrange(0, dis_height - snake_block) / 10.0) * 10.0
             Length_of_snake += 1
+            eat_sound.play()  # Play the sound when the snake eats the food
 
         clock.tick(snake_speed)  # Control the game's frame rate.
 
