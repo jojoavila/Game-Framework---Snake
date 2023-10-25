@@ -4,28 +4,25 @@
 
 The game is a classic Snake game where the player controls a snake that grows in length as it consumes food. The goal of the game is to eat as much food as possible and avoid colliding with the walls of the game window and the snake's own body. The player's score increases with each food item eaten.
 
-{Describe your purpose for writing this software.}
-The purpose of this code 
-
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the game being played and a walkthrough of the code.}
+The purpose of this code is to practice the usage of graphical libraries in Python and to understand how they work.
 
 [Software Demo Video](http://youtube.link.goes.here)
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+I used the Python programing language as the language for my program. It is a simple language that could handle all the elemens that I wanted to use. The IDE used to write this program was Visual Studio Code.
 
-{Describe the programming language that you used and any libraries.}
+Python is a high-level, interpreted, and general-purpose programming language known for its readability, versatility, and extensive standard library. It emphasizes clean, easily readable code with its significant use of whitespace for indentation. Python supports multiple programming paradigms and benefits from a large and active community that contributes to its rich ecosystem of libraries and frameworks. It is cross-platform, open source, and widely used in various domains, making it a popular choice for developers of all skill levels.
+The pygame library is a popular Python library for creating 2D games and multimedia applications. It provides various functions and classes to help with game development, such as handling graphics, input, sound, and more. The time library is a standard Python library used for time-related functions. In this code, it's primarily used for controlling the game's frame rate. The random library is a standard Python library for generating random numbers. In this code, it's used to randomly position the food within the game window. And the pygame.mixer is used for sound handling. It allows you to play sounds in the game.
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [Official Python Website](https://www.python.org/)
+* [Official Pygame Website](https://www.pygame.org/docs/)
+* [W3Schools](https://www.w3schools.com/python/default.asp)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* Add music while the game is running
+* Add sound effect when the snike dies
+* Add the feature to save the actual stage of the game
