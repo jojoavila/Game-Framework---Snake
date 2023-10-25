@@ -110,7 +110,7 @@ def gameLoop():
         # Check if the snake hits the game boundaries. If so, end the game.
         if x1 >= dis_width or x1 < 0 or y1 >= dis_height or y1 < 0:
             game_close = True
-            death_sound.play()
+            death_sound.play() # Play the death sound when the snake dies
 
         x1 += x1_change
         y1 += y1_change
@@ -130,7 +130,7 @@ def gameLoop():
         for x in snake_List[:-1]:
             if x == snake_Head:
                 game_close = True
-                death_sound.play()
+                death_sound.play() # Play the death sound when the snake dies
 
         # Draw the snake on the game window.
         our_snake(snake_block, snake_List)
