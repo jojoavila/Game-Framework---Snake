@@ -6,7 +6,7 @@ The game is a classic Snake game where the player controls a snake that grows in
 
 The purpose of this code is to practice the usage of graphical libraries in Python and to understand how they work.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/NzVHRBxtKlM)
 
 # Development Environment
 
@@ -24,5 +24,4 @@ The pygame library is a popular Python library for creating 2D games and multime
 # Future Work
 
 * Add music while the game is running
-* Add sound effect when the snike dies
 * Add the feature to save the actual stage of the game

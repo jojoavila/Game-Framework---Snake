@@ -1,5 +1,4 @@
 import pygame  # Import the Pygame library for game development.
-import time
 import random
 import pygame.mixer # module to play a sound
 
@@ -15,7 +14,7 @@ blue = (55, 93, 138)
 
 # Set the dimensions of the game window.
 dis_width = 600
-dis_height = 400
+dis_height = 300
 
 # Create the game window using Pygame.
 dis = pygame.display.set_mode((dis_width, dis_height))
